@@ -7,7 +7,7 @@
   "repository": {
     "url": "https://github.com/jesterKing/literate"
   },
-  "version": "0.14.4",
+  "version": "0.14.4nostyle",
   "engines": {
     "vscode": "^1.63.2"
   },
@@ -52,9 +52,6 @@
       ]
     },
     "markdown.markdownItPlugins": true,
-    "markdown.previewStyles": [
-      "./style.css"
-    ],
     "commands": [
       {
         "command": "literate.process",

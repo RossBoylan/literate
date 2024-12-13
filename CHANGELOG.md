@@ -1,5 +1,14 @@
 # Change Log
 
+## 0.14.4nostyle
+  * Do not install the package style file.
+  This change removes the contribution point for styles.css without removing the file
+  itself from the source.  There remain lots of references to `./style.css`, all 
+  generated from the template at line 2179 of `literate.literate`, I think.  We'll
+  see how that works.  There are 2 problems with the previous style useage:
+     1. It affects all files and projects, not just those using `literate`.
+     2. It doesn't work well with some themes, in particular dark ones.
+
 ## 0.14.4
 
 * Hide code comments from generated HTML ( #38 )
